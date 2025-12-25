@@ -35,7 +35,6 @@ const MediaSection: React.FC<MediaSectionProps> = ({ setView }) => {
         </div>
         
         <div className="glass-panel border-amber-500/20 bg-zinc-900/40 rounded-2xl overflow-hidden shadow-2xl relative group">
-            <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent z-10 pointer-events-none"></div>
             
             {/* Video Wrapper */}
             <div className="aspect-video w-full bg-black relative">
@@ -43,27 +42,13 @@ const MediaSection: React.FC<MediaSectionProps> = ({ setView }) => {
                     width="100%" 
                     height="100%" 
                     src="https://www.youtube.com/embed/wQZtPuXfZ8k" 
-                    title="YouTube video player" 
+                    title="The Exoneration of Michael Vega" 
                     frameBorder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     referrerPolicy="strict-origin-when-cross-origin" 
                     allowFullScreen
-                    className="opacity-90 hover:opacity-100 transition-opacity duration-500"
+                    className="opacity-100"
                 ></iframe>
-            </div>
-
-            <div className="p-8 relative z-20">
-                <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
-                    <div>
-                        <h3 className="text-2xl font-bold text-white mb-2">The Exoneration of Michael Vega</h3>
-                        <p className="text-zinc-400 max-w-xl">
-                            A 2-hour investigative deep dive into the anomalies of the March 15th incident, the extraction of Danielle Allen, and the medical realities of the Phenix device.
-                        </p>
-                    </div>
-                    <button className="flex items-center gap-2 bg-amber-600 hover:bg-amber-500 text-white px-6 py-3 rounded-full font-medium transition-all shadow-[0_0_20px_rgba(217,119,6,0.2)]">
-                        <Play size={18} fill="currentColor" /> Watch Full Episode
-                    </button>
-                </div>
             </div>
         </div>
       </div>
