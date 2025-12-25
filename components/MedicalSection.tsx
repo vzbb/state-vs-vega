@@ -66,7 +66,7 @@ const MedicalSection: React.FC<MedicalSectionProps> = ({ setView }) => {
                 <div className="h-full flex-1 bg-rose-950/40 relative overflow-hidden flex items-center">
                     <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(225,29,72,0.1)_25%,rgba(225,29,72,0.1)_50%,transparent_50%,transparent_75%,rgba(225,29,72,0.1)_75%,rgba(225,29,72,0.1)_100%)] bg-[length:10px_10px] animate-[progress_1s_linear_infinite]"></div>
                     <span className="relative z-10 w-full text-center text-xs font-bold text-rose-400 tracking-widest animate-pulse">
-                        ⚠ CATASTROPHIC FAILURE PROBABILITY > 99% ⚠
+                        ⚠ CATASTROPHIC FAILURE PROBABILITY ~ 99% ⚠
                     </span>
                 </div>
             </div>
